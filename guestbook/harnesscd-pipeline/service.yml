@@ -18,7 +18,7 @@ service:
                                 - guestbook/guestbook-ui-deployment.yaml
                                 - guestbook/guestbook-ui-svc.yaml
                             repoName: harnesscd-example-apps
-                            branch: master
+                            branch: vishal-test
                         skipResourceVersioning: false
                         enableDeclarativeRollback: false
     gitOpsEnabled: false
