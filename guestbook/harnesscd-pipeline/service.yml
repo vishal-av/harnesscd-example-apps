@@ -1,6 +1,7 @@
 service:
     name: harness_guestbook
     identifier: harnessguestbook
+    orgIdentifier: default
     serviceDefinition:
         type: Kubernetes
         spec:
@@ -21,7 +22,4 @@ service:
                             branch: vishal-test
                         skipResourceVersioning: false
                         enableDeclarativeRollback: false
-                        metadata:                 
-                            labels:               
-                              orgId: default
     gitOpsEnabled: false
