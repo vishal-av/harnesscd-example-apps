@@ -24,6 +24,6 @@ service:
                         enableDeclarativeRollback: false
                         metadata:
                           labels:
-                              orgId: your-org-id
+                              orgId: default
                               orgIdentifier: default
     gitOpsEnabled: false
