@@ -21,4 +21,7 @@ service:
                             branch: vishal-test
                         skipResourceVersioning: false
                         enableDeclarativeRollback: false
+                        metadata:                 
+                            labels:               
+                              orgId: default
     gitOpsEnabled: false
