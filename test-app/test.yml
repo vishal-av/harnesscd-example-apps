@@ -1,6 +1,6 @@
 pipeline:
-  name: sample_pipeline_1
-  identifier: sample_pipeline_1
+  name: vishal-sample-pl-1
+  identifier: vishal-sample-pl-1
   projectIdentifier: Krishika_CD_Samples
   orgIdentifier: default
   tags: {}
