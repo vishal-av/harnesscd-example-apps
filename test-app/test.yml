@@ -13,7 +13,7 @@ pipeline:
         spec:
           deploymentType: Kubernetes
           service:
-            serviceRef: vishal-t2
+            serviceRef: vishalt2
           environment:
             environmentRef: vishalsamplepipeline
             deployToAll: false
