@@ -1,0 +1,38 @@
+pipeline:
+  name: sample_pipeline_1
+  identifier: sample_pipeline_1
+  projectIdentifier: Krishika_CD_Samples
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: tmp-stage
+        identifier: deployownapp
+        description: ""
+        type: Deployment
+        spec:
+          deploymentType: Kubernetes
+          service:
+            serviceRef: vishal-t2
+          environment:
+            environmentRef: vishalsamplepipeline
+            deployToAll: false
+            infrastructureDefinitions:
+              - identifier: vishalterraforminfra
+          execution:
+            steps:
+              - step:
+                  name: Stage Deployment
+                  identifier: stageDeployment
+                  type: K8sBlueGreenDeploy
+                  timeout: 10m
+                  spec:
+                    skipDryRun: false
+                    pruningEnabled: false
+        tags: {}
+        failureStrategies:
+          - onFailure:
+              errors:
+                - AllErrors
+              action:
+                type: StageRollback
