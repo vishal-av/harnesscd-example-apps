@@ -1,6 +1,6 @@
 pipeline:
-  name: vishal-sample-pl-1
-  identifier: vishal-sample-pl-1
+  name: vishalsample-pl-1
+  identifier: vishal_sample_pl_1
   projectIdentifier: Krishika_CD_Samples
   orgIdentifier: default
   tags: {}
@@ -13,7 +13,7 @@ pipeline:
         spec:
           deploymentType: Kubernetes
           service:
-            serviceRef: vishal-t2
+            serviceRef: vishalt2
           environment:
             environmentRef: vishalsamplepipeline
             deployToAll: false
@@ -29,6 +29,21 @@ pipeline:
                   spec:
                     skipDryRun: false
                     pruningEnabled: false
+              - step:
+                  name: Swap primary with stage service
+                  identifier: bgSwapServices
+                  type: K8sBGSwapServices
+                  timeout: 10m
+                  spec:
+                    skipDryRun: false
+            rollbackSteps:
+              - step:
+                  name: Swap primary with stage service
+                  identifier: rollbackBgSwapServices
+                  type: K8sBGSwapServices
+                  timeout: 10m
+                  spec:
+                    skipDryRun: false
         tags: {}
         failureStrategies:
           - onFailure:
