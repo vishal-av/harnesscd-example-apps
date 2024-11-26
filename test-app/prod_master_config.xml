@@ -1,0 +1,7 @@
+<MasterConfig>
+  <ClientDetails>
+    <ClientID>12345</ClientID>
+    <ClientName>DefaultClient</ClientName>
+    <DefaultInfra>DefaultInfra_1</DefaultInfra>
+  </ClientDetails>
+</MasterConfig>
