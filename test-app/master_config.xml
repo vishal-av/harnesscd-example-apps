@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <appSettings>
-        <add key="environment_name" value="{environment_name}"/>
-        <add key="infrastructure_1" value="{infrastructure_1}"/>
-        <add key="infrastructure_2" value="{infrastructure_2}"/>
-    </appSettings>
-</configuration>
-
-
 <MasterConfig>
   <Tenants>
     <Tenant>
