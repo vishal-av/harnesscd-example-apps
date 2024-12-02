@@ -3,18 +3,18 @@
   <Environments>
     <Environment>
       <Name>dev</Name>
-      <CustomEnvName>tenant_dev_env1</CustomEnvName>
+      <CustomEnvName>tenant3_dev_env</CustomEnvName>
       <Infrastructure>infrastructure_1</Infrastructure>
     </Environment>
     <Environment>
       <Name>stage</Name>
-      <CustomEnvName>tenant_stage_env1</CustomEnvName>
+      <CustomEnvName>tenant3_stage_env</CustomEnvName>
       <Infrastructure>infrastructure_2</Infrastructure>
     </Environment>
     <Environment>
       <Name>prod</Name>
-      <CustomEnvName>tenant_prod_env1</CustomEnvName>
-      <Infrastructure>infrastructure_3</Infrastructure>
+      <CustomEnvName>tenant3_prod_env</CustomEnvName>
+      <Infrastructure>prod_infrastructure</Infrastructure>
     </Environment>
   </Environments>
 </TenantConfig>
