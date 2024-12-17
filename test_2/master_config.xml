@@ -9,4 +9,9 @@
       <ConfigFile>tenant_project_2.xml</ConfigFile>
     </Tenant>
   </Tenants>
+    <Tenant>
+      <TenantID>tenant_3</TenantID>
+      <ConfigFile>tenant_project_3.xml</ConfigFile>
+    </Tenant>
+  </Tenants>
 </MasterConfig>
