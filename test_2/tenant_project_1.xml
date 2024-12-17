@@ -2,21 +2,21 @@
   <TenantID>tenant_1</TenantID>
   <Components>
     <Component>
-      <Name>Marcims</Name>
+      <Name>Macrims</Name>
       <Environments>
         <Environment>
           <Name>prod</Name>
-          <CustomEnvName>marcims_prod_env</CustomEnvName>
+          <CustomEnvName>macrims_prod_env</CustomEnvName>
           <Infrastructure>prod_infrastructure_1</Infrastructure>
         </Environment>
         <Environment>
           <Name>stage</Name>
-          <CustomEnvName>marcims_stage_env</CustomEnvName>
+          <CustomEnvName>macrims_stage_env</CustomEnvName>
           <Infrastructure>stage_infrastructure_1</Infrastructure>
         </Environment>
         <Environment>
           <Name>dev</Name>
-          <CustomEnvName>marcims_dev_env</CustomEnvName>
+          <CustomEnvName>macrims_dev_env</CustomEnvName>
           <Infrastructure>dev_infrastructure_1</Infrastructure>
         </Environment>
       </Environments>
