@@ -17,7 +17,7 @@
         <Environment>
           <Name>dev</Name>
           <CustomEnvName>tenant3_dev_env</CustomEnvName>
-          <Infrastructure>dev_infrastructure_1</Infrastructure>
+          <Infrastructure>k8s_infra</Infrastructure>
         </Environment>
       </Environments>
     </Component>
