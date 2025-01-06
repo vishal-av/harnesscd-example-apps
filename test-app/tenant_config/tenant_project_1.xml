@@ -16,8 +16,8 @@
         </Environment>
         <Environment>
           <Name>dev</Name>
-          <CustomEnvName>macrims_dev_env</CustomEnvName>
-          <Infrastructure>dev_infrastructure_1</Infrastructure>
+          <CustomEnvName>tenant_dev_env1</CustomEnvName>
+          <Infrastructure>k8S_infra</Infrastructure>
         </Environment>
       </Environments>
     </Component>
