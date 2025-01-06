@@ -36,8 +36,8 @@
         </Environment>
         <Environment>
           <Name>dev</Name>
-          <CustomEnvName>decisions_dev_env</CustomEnvName>
-          <Infrastructure>dev_infrastructure_2</Infrastructure>
+          <CustomEnvName>tenant3_dev_env</CustomEnvName>
+          <Infrastructure>k8s_infra</Infrastructure>
         </Environment>
       </Environments>
     </Component>
