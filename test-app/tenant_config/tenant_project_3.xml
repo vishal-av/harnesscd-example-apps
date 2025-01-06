@@ -16,7 +16,7 @@
         </Environment>
         <Environment>
           <Name>dev</Name>
-          <CustomEnvName>macrims_dev_env</CustomEnvName>
+          <CustomEnvName>tenant3_dev_env</CustomEnvName>
           <Infrastructure>dev_infrastructure_1</Infrastructure>
         </Environment>
       </Environments>
